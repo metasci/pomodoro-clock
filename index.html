@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pomodoro Clock</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+		<link rel="stylesheet" href="styles/main.css">
+		<link href='https://fonts.googleapis.com/css?family=Dancing+Script|Work+Sans:300' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<!-- title -->
+		<div class="title">Nicks Pomodoro Clock</div>
+
+		<div class="dials">
+		<!-- break length (2 buttons -+)-->
+		    <div class="dial break">
+		        <div class="label">BREAK LENGTH</div>
+		        <div class="button" id="break-less">-</div><div class="disp" id="break-time">5</div><div class="button" id="break-more">+</div>
+		        <div></div>
+		    </div>
+		<!-- session length (2 buttons -+)-->
+		    <div class="dial session">
+		        <div class="label">SESSION LENGTH</div>
+		        <div class="button" id="session-less">-</div><div class="disp" id="session-time">25</div><div class="button" id="session-more">+</div>
+		    </div>
+		</div>
+
+
+		<!-- timer circle pause and start on click -->
+		<div class="circleborder">
+		<div class="circle">
+		    <div class="now">
+		        <div class="time-label">SESSION</div>
+		        <div class="timer"><span class="hour" id='hour'>00</span><span class="hour"> : </span><span class="min">25</span> : <span class="sec">00</span></div>
+		    </div>
+		    <div class="bg">
+		    </div>
+		</div>
+		</div>
+
+
+
+		<!-- codepen portfolio link button -->
+		<div class="me">
+		    <a href="https://codepen.io/metasci/" target="_blank">By Nick</a>
+		</div>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>

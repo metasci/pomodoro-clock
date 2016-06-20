@@ -1,0 +1,94 @@
+body{
+    background-color: #33334d;
+    color: white;
+    font-family: 'work sans', sans-serif;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -khtml-user-select: none; 
+    -ms-user-select: none;
+}
+
+.title {
+    margin: 50px 0;
+    font-weight: bold;
+    font-family: dancing script;
+    font-size: 80px;
+    text-align: center;
+}
+
+.dials {
+    text-align: center;
+}
+.dial {
+    font-size: 15px;
+    display: inline-block;
+    margin: 0 50px;
+}
+.button{
+    display: inline-block;
+    font-size: 40px;
+    margin: 15px 20px;
+    cursor: pointer;
+}
+.disp{
+    display: inline-block;
+    font-size: 40px;
+}
+.circleborder{
+    height:310px;
+    width:310px;
+    margin: 30px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    border: 3px solid #b3ff66; 
+}
+.circle {
+    margin: 0 0;
+    background: none;
+    border-radius: 50%;
+    border: 5px solid #33334d; 
+    cursor: pointer;
+    height:300px;
+    width:300px;
+    overflow: hidden;
+}
+
+.bg {
+    position: relative;
+    margin: auto;
+    background-color: #b3ff66;
+    top: 300px;
+    height: 300px;
+    width: 300px;
+    z-index: auto;
+}
+.now {
+    background-color: none;
+    color: white;   
+    margin: 60px 0;
+    font-family: 'dancing script';
+    font-size: 55px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    z-index: 1;
+}
+
+.timer {
+    margin: 20px 0;
+}
+
+.hour {
+    display: none;
+}
+
+.me {
+    margin: 100px 0;
+    text-align: center;
+}
+.me a {
+    color: white;
+    text-decoration: none;
+}
